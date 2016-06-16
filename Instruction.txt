@@ -1,0 +1,25 @@
+Java.zip contains Java files that you can use to send data from sensor or any other information you want to your database. You need to change several "commented" lines of code. (Database name, password, etc).
+You need to include libraries to your java project(also in java.zip). Because java program sends information from sensors connected to Arduino you need to upload Arduino.ino file on your arduino. Java program sends
+information after "Data:" check arduino code.
+//Thats how it works:
+
+(bufferString.contains("Data")){
+int start = bufferString.indexOf(":")+1; 
+int end = bufferString.indexOf("\r\n",start);
+String value = bufferString.substring(start,end);
+return value;
+}
+
+
+If you are using another microcontroller, it is also possible, google how to use "seria print" for your type of device, dont forget to add "Data:"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+In order for android application to work you need to upload files from Database folder on your website(hosting folder). And specify your hosting and database details in Android application(there are number of fields that you need specify, like 
+String link = "http://YourWebSiteName/loginnew.php";, they will be commented so you can easily find them.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Its all the instructions you need to know. If you will have problems, You can send me your question on my email. Its a new experience for me to, so please left your feedback so I can solve and improve. Thank you and good luck. 
+
+
