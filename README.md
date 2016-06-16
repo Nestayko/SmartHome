@@ -1,6 +1,6 @@
 # SensorSmartHome
-![alt tag](https://github.com/Nestayko/SmartHome/blob/master/AppScreenShot1.jpg)
 ![alt tag](https://github.com/Nestayko/SmartHome/blob/master/AppScreenShot0.jpg)
+![alt tag](https://github.com/Nestayko/SmartHome/blob/master/AppScreenShot1.jpg)
 ![alt tag](https://github.com/Nestayko/SmartHome/blob/master/AppScreenShot2.jpg)
 
 
